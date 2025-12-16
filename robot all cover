@@ -1,0 +1,12 @@
+def turn_right():
+    for i in range(3):
+        r.turn_left()
+for i in range(5):  # 重複 5 次        
+    r.move(9)  # robot 動畫式向右走 5 步，途中留下 trace 線
+    r.turn_left()
+    r.move(1)
+    r.turn_left()
+    r.move(9)
+    turn_right()
+    r.move(1)
+    turn_right()
