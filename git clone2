@@ -1,0 +1,7 @@
+# Brython 機器人程式
+# 範例：移動機器人
+# from robot_lib import World, AnimatedRobot
+#
+# w = World(10, 10)
+# robot = AnimatedRobot(w, 5, 5)
+# robot.move(3)
